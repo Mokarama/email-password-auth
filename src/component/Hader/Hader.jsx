@@ -1,11 +1,14 @@
+import { NavLink } from "react-router-dom";
 
 
 const Hader = () => {
     const links =[
         <div className="flex">
-            <li><a>Item 1</a></li>
-            <li><a>Item 3</a></li>
-            <li><a>Item 3</a></li>
+            <li><NavLink to="/">Home</NavLink></li>
+            <li><NavLink to="/login">LogIn</NavLink></li>
+            <li><NavLink to="/register">Register</NavLink></li>
+            <li><NavLink to="/register2">Register2</NavLink></li>
+         
         </div>
     ]
      

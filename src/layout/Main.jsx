@@ -5,7 +5,7 @@ import Footer from "../component/Footer/Footer";
 
 const Main = () => {
     return (
-        <div>
+        <div className="max-w-5xl mx-auto">
          <Hader></Hader>
          <Outlet></Outlet>
          <Footer></Footer>
