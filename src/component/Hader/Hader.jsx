@@ -7,7 +7,7 @@ const Hader = () => {
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/login">LogIn</NavLink></li>
             <li><NavLink to="/register">Register</NavLink></li>
-            <li><NavLink to="/register2">Register2</NavLink></li>
+            <li><NavLink to="/signup">Sign Up</NavLink></li>
          
         </div>
     ]
